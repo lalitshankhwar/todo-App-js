@@ -14,13 +14,15 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+.wrapper{
+    width: 100%;
+    max-width: 600px;
+}
 
 .add-note {
     input {
-        max-width: 400px;
         width: 100%;
         font-weight: 500;
-        // color: rgb(216, 215, 215);
         outline: none;
         border: 1px solid rgb(216, 215, 215);
     }
